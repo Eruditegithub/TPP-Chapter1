@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phoenix Project Check Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+    <h1 style="font-size: 50px;">Phoenix Project Check Form (Chapter 1-Based Debug Form)</h1>
+    <p style="font-size: 30px; font-weight: bold; color: azure; text-align: center;">This form is designed to assess organizational conditions reflected in Chapter 1 of the Book <strong>"The Phoenix Project".</strong> All questions are rooted in direct observations from that chapter.</p>
+    <h2></h2>
+    <form action="">
+      <h2>LEADERSHIP & ROLE CLARITY</h2>
+      <div class="question-box">
+      <p><strong>1. Were you recently assigned a new responsibility or role without prior notice or preparation?</strong></p>
+      <input type="radio" id="one" name="leadership">
+      <label for="one">Yes</label><br>
+      <input type="radio" id="two" name="leadership">
+      <label for="two">No</label></div><br>
+      <div class="question-box">
+      <p><strong>2. If you were suddenly promoted into a critical role, how prepared would you feel?</strong></p>
+      <input type="radio" id="two-one" name="leadership">
+      <label for="two-one">Very prepared</label><br>
+      <input type="radio" id="two-two" name="leadership">
+      <label for="two-two">Somewhat prepared</label><br>
+      <input type="radio" id="two-three" name="leadership">
+      <label for="two-three">Not prepared</label><br>
+      <input type="radio" id="two-four" name="leadership">
+      <label for="two-four">I have experienced this scenario</label></div><br>
+      <div class="question-box">
+      <p><strong>3. Do you know who is officially accountable for a major IT initiatives like Phoenix in your organization?</strong></p>
+      <input type="radio" id="three-one" name="leadership">
+      <label for="three-one">Yes</label><br>
+      <input type="radio" id="three-two" name="leadership">
+      <label for="three-one">Somewhat</label><br>
+      <input type="radio" id="three-three" name="leadership">
+      <label for="three-one">No</label><br>
+      <input type="radio" id="three-four" name="leadership">
+      <label for="three-one">The role keeps shifting</label></div><br>
+      <h2>CRISIS CULTURE & FIREFIGHTING</h2>
+      <div class="question-box">
+      <p><strong>4. How often are critical issues escalated to top leadership as last-minute emergencies?</strong></p>
+      <input type="radio" id="four-one" name="crisis">
+      <label for="four-one">Frequently</label><br>
+      <input type="radio" id="four-two" name="crisis">
+      <label for="four-two">Occassionally</label><br>
+      <input type="radio" id="four-three" name="crisis">
+      <label for="four-three">Rarely</label><br>
+      <input type="radio" id="four-four" name="crisis">
+      <label for="four-four">Never</label></div><br>
+      <div class="question-box">
+      <p><strong>5. Have you been pulled out of planned time off or personal plans due to urgent work issues?</strong></p>
+      <input type="checkbox" id="five-one" name="crisis">
+      <label for="five-one">Yes, for production incidents</label><br>
+      <input type="checkbox" id="five-two" name="crisis">
+      <label for="five-two">Yes, for execution meetings</label><br>
+      <input type="checkbox" id="five-three" name="crisis">
+      <label for="five-three">Yes, due to lack of backup or delegation</label><br>
+      <input type="checkbox" id="five-four" name="crisis">
+      <label for="five-four">No</label></div><br>
+      <div class="question-box">
+      <p><strong>6. Describe a time when a time when an emergency disrupted your schedule.</strong></p>
+      <textarea name="crisis" id="five-six" rows="6" cols="50" placeholder="Drop your comment"></textarea></div><br>
+      <h2>PHOENIX PROJECT READINESS</h2>
+      <div class="question-box">
+      <P><strong>7. How clearly defined is the Phoenix Project's objective within your team?</strong></P>
+      <input type="radio" id="seven-one" name="phoenix">
+      <label for="seven-one">Very clearly</label><br>
+      <input type="radio" id="seven-two" name="phoenix">
+      <label for="seven-two">Somewhat clear</label><br>
+      <input type="radio" id="seven-three" name="phoenix">
+      <label for="seven-three">Vaguely defined</label><br>
+      <input type="radio" id="seven-four" name="phoenix">
+      <label for="seven-four">Not communicated at all</label></div><br>
+      <div class="question-box">
+      <p><strong>8. What is your current understanding of the Phoenix Project's timeline. budget, and delivery status?</strong></p>
+      <textarea name="phoenix" id="eight-one" rows="6" cols="50" placeholder="Drop your comment"></textarea></div><br>
+      <div class="question-box">
+      <p><strong>9. From your experience, which of these issues currently affect Phoenix?</strong></p>
+      <input type="checkbox" id="nine-one" name="phoenix">
+      <label for="nine-one">Poor planning</label><br>
+      <input type="checkbox" id="nine-two" name="phoenix">
+      <label for="nine-two">Missed deadlines</label><br>
+      <input type="checkbox" id="nine-three" name="phoenix">
+      <label for="nine-three">Lack of leadership</label><br>
+      <input type="checkbox" id="nine-four" name="phoenix">
+      <label for="nine-four">No clear owner</label><br>
+      <input type="checkbox" id="nine-five" name="phoenix">
+      <label for="nine-five">Technical failure or instability</label><br>
+      <input type="checkbox" id="nine-six" name="phoenix">
+      <label for="nine-six">None of the above</label></div><br>
+      <h2>BRENT SYNDROME (OVER-RELIANCE ON KEY INDIVIDUALS)</h2>
+      <div class="question-box">
+      <p><strong>10. Is there someone in your team who is constantly pulled into every crisis or issue, regardless of their current tasks?</strong></p>
+      <input type="radio" id="ten-one" name="brent">
+      <label for="ten-one">Yes</label><br>
+      <input type="radio" id="ten-two" name="brent">
+      <label for="ten-two">No</label><br>
+      <input type="radio" id="ten-three" name="brent">
+      <label for="ten-three">Not sure</label></div><br>
+      <div class="question-box">
+      <p><strong>11. If yes, who is that person and why are they always relied upon?</strong></p>
+      <textarea name="brent" id="eleven-text" cols="50" rows="3" placeholder="Drop your comment"></textarea></div><br>
+      <h2>EXECUTIVE EXPECTATIONS</h2>
+      <div class="question-box">
+      <p><strong>12. How often do executive directives bypass established IT processes or chains of command?</strong></p>
+      <input type="radio" id="twelve-one" name="executive">
+      <label for="twelve-one">Frequently</label><br>
+      <input type="radio" id="twelve-two" name="executive">
+      <label for="twelve-two">Sometimes</label><br>
+      <input type="radio" id="twelve-three" name="executive"> 
+      <label for="twelve-three">Rarely</label><br>
+      <input type="radio" id="twelve-four" name="executive">
+      <label for="twelve-four">Never</label></div><br>
+        <div class="question-box">
+      <p><strong>13. In your opinion, Is there alignment between leadership expectations and the state of execution on Phoenix?</strong></p>
+      <input type="radio" id="thirteen-one" name="execution">
+      <label for="thirteen-one">Yes, they're aligned</label><br>
+      <input type="radio" id="thirteen-two" name="execution">
+      <label for="thirteen-two">No, leadership is disconnected</label><br>
+      <input type="radio" id="thirteen-three" name="execution">
+      <label for="thirteen-three">Somewhat but there's a gap</label><br>
+      <input type="radio" id="thirteen-four" name="execution">
+      <label for="thirteen-four">Not sure</label></div><br>
+      <div class="question-box">
+      <p><strong>14. In your words, what are the biggest risks facing our Phoenix Project right now?</strong></p>
+      <textarea name="execution" id="fourteen" rows="12" cols="55" placeholder="Write here"></textarea></div>
+    </form>
+</div>
+</body>
+</html>

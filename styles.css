@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./assets/abstract-blue-vector-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.question-box {
+  border: aliceblue 3px solid;
+  border-radius: 10px;
+  background-color: azure;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+h1 {
+    transform: translateX(-100%);
+    animation: slideInLeft 5s ease-out forwards infinite, colorShift 5s infinite;
+}
+h1:hover {
+    animation-play-state: paused;
+}
+@keyframes slideInLeft {
+    to {
+        transform: translateX(100%);
+    }
+}
+@keyframes colorShift {
+    0% {
+      color: black;
+    }
+    25% {
+      color: #ee0979;;
+    }
+    50% {
+      color:  white;;
+    }
+    75% {
+      color: #00ff90;;
+    }
+    100% {
+      color: #ff6a00;;
+    }
+}
+textarea:placeholder-shown {
+  border: 2px black dotted;
+}

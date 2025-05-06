@@ -20,6 +20,9 @@ h1 {
 h1:hover {
     animation-play-state: paused;
 }
+textarea:placeholder-shown {
+  border: 2px black dotted;
+}
 @keyframes slideInLeft {
     to {
         transform: translateX(100%);
@@ -42,6 +45,24 @@ h1:hover {
       color: #ff6a00;;
     }
 }
-textarea:placeholder-shown {
-  border: 2px black dotted;
+/* Mobiles */
+@media (max-width: 480px) {
+   body {
+    font-size: 16px;
+    line-height: 1.5;
+   }
+}
+/* Tablets */
+@media (min-width: 481px) and (max-width: 1024px) {
+  body {
+    font-size: 17px;
+    line-height: 1.6;
+  }
+}
+/* Desktops */
+@media (min-width: 1025px) {
+    body {
+      font-size: 20px;
+      line-height: 1.8;
+    }
 }

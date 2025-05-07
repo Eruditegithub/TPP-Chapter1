@@ -22,6 +22,10 @@ button {
   border: 2px black solid;
   border-radius: 10px;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
 h1 {
     transform: translateX(-100%);
     animation: slideInLeft 5s ease-out forwards infinite, colorShift 5s infinite;

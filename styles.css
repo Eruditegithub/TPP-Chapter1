@@ -13,6 +13,15 @@ body {
   padding-left: 10px;
   padding-bottom: 10px;
 }
+button {
+  width: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: auto;
+  margin: 20px auto;
+  border: 2px black solid;
+  border-radius: 10px;
+}
 h1 {
     transform: translateX(-100%);
     animation: slideInLeft 5s ease-out forwards infinite, colorShift 5s infinite;
@@ -22,6 +31,7 @@ h1:hover {
 }
 textarea:placeholder-shown {
   border: 2px black dotted;
+  border-radius: 7px;
 }
 @keyframes slideInLeft {
     to {
